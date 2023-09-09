@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Phudu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 111, 163);
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #aaccc5, #085545);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Alinhar os elementos verticalmente */
+}
+
+.relogio, .calendario {
+    display: flex;
+    justify-content: space-around ; /*serve para dar espaçamento entre as divs*/
+    align-items: center;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px; /* Adicionar margem inferior para separar os elementos verticalmente */
+}
+
+.relogio div, .calendario div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background: rgba(5, 5, 5, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 9px;
+    letter-spacing: 3px;
+}
+
+.relogio span, .calendario span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo, .calendario span.data {
+    font-size: 15px;
+}
+
