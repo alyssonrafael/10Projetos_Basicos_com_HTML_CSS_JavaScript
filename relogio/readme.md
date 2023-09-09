@@ -2,6 +2,7 @@
 
 Este é um projeto simples de um relógio digital e um indicador de data digital desenvolvido usando HTML, CSS e JavaScript. Foi criado com o objetivo de demonstrar conceitos básicos de desenvolvimento web.
 
+![Exemplo de Relógio Digital](./img.projeto.png)
 ## Funcionalidades
 
 - **Relógio Digital**: Exibe a hora atual em um formato de 24 horas.
