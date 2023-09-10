@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+}
+
+body{
+
+    background: linear-gradient(to right,#a5e2d5, #037860);
+}
+
+.wrapper{
+    max-width: 760px;
+    margin: 200px auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.dias-da-semana {
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   padding: 10px 0;
+   border-bottom:1px solid rgb(203, 49, 49);
+
+   
+}
+
+.numeros-dos-dias{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px 0; 
+}
+
+
+
+.dias-da-semana span{
+    color: rgb(203, 49, 49);
+    font-weight: bold;
+    display: inline-block;
+    width: 14.2%;
+    margin: 8px 0;
+}
+
+.numeros-dos-dias span{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 14.2%;
+    margin-bottom: 8px;
+
+}
+
+.mes-anterior{
+   opacity: 0.3;
+}
+
+.day-selected{
+    text-decoration: underline red 2px; 
+    
+}
+
+.mes-que-foi-feito{
+   padding: 10px 0;
+}
+
+.mes-que-foi-feito span{
+    color: rgb(203, 49, 49);
+    font-weight: bold;
+}
