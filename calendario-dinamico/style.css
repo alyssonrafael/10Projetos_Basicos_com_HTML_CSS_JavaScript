@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    background-image: url("./background.avif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+ 
+.conteudo{
+    left: 50%;
+    margin: 0 0 0 -250px;
+    position: absolute;
+    
+}
+
+.calendario{
+    text-align: center;
+
+}
+
+.conteudo .calendario header{
+    position: relative;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn-ant,.btn-prox{
+    position: absolute;
+    top: 50%;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    margin-top: -16px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    color: black;
+    font-size:18px ;
+    font-weight: bold;
+}
+
+.btn-ant{
+    left: 14px;
+}
+.btn-prox{
+    right: 14px;
+}
+
+.btn-ant:hover, .btn-prox:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.calendario table{
+    margin-top: 20px;
+    background: #17dbd4;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+.calendario thead{
+    background: #17dbd4;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.calendario td{
+    border: 2px solid;
+    height: 71.4px;
+    text-align: center;
+    width: 71.4px;
+}
+
+.calendario tbody td{
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.calendario tbody td:hover{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    
+}
+
+.calendario table .dia-atual{
+    background: #7bfff2;
+    color: rgb(0, 0, 0);
+    text-decoration:underline 10px rgb(0, 0, 0) ;
+}
+
+.calendario .mes-anterior, .calendario .proximo-mes{
+    color: #ffffff;
+}
+
+.calendario .mes-anterior, .calendario .proximo-mes{
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.calendario .mes-anterior:hover, .calendario .proximo-mes:hover{
+    background: #597e76;
+}
+

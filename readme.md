@@ -5,8 +5,16 @@ Este repositório contém uma coleção de projetos simples desenvolvidos com HT
 ## Projetos Incluídos
 
 1. **Relógio digital e data**
+   - ![relogio digital](./relogio/img.projeto.png)
    - Este é um projeto de um relógio digital simples desenvolvido com HTML, CSS e JavaScript. Ele exibe a hora atual em um formato de 24 horas e exibe Também a data atual.
-.
+
+2. **Calendário Estático - Setembro de 2023**
+   - ![Calendário Estático](./calendario/img.projeto.calendario.png)
+   - Este é um projeto de calendário básico criado utilizando HTML, CSS e JavaScript. Ele exibe apenas os dias do mês de setembro de 2023, destacando a data atual com uma pequena marcação.
+
+3. **Calendário Dinâmico**
+   - ![Calendário Dinâmico](./calendario-dinâmico/img_do_projeto.png)
+   - Este é um projeto de calendário dinâmico criado utilizando HTML, CSS e JavaScript. Ele permite a navegação entre os meses e anos, exibindo os dias correspondentes de forma interativa.
 
 ## Como Usar
 
@@ -21,5 +29,3 @@ Se você gostaria de contribuir com mais projetos ou melhorias, sinta-se à vont
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
----
