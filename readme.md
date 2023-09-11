@@ -13,7 +13,7 @@ Este repositório contém uma coleção de projetos simples desenvolvidos com HT
    - Este é um projeto de calendário básico criado utilizando HTML, CSS e JavaScript. Ele exibe apenas os dias do mês de setembro de 2023, destacando a data atual com uma pequena marcação.
 
 3. **Calendário Dinâmico**
-   - ![Calendário Dinâmico](./calendario-dinâmico/img_do_projeto.png)
+   - ![Calendário Dinâmico](./calendario-dinamico/img_do_projeto.png)
    - Este é um projeto de calendário dinâmico criado utilizando HTML, CSS e JavaScript. Ele permite a navegação entre os meses e anos, exibindo os dias correspondentes de forma interativa.
 
 ## Como Usar
