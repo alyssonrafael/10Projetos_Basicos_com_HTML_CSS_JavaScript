@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #93b2b8, #007BFF);
+}/*todo o padrao da pagina*/
+
+.container {
+    margin: 50px auto;
+    max-width: 400px;
+}/*parametros de tamanho para a div principal*/
+
+h1 {
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}/*titulo da pagina o lista de tarefas*/
+
+input[type="text"] {
+    width: 70%;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #3b0e9c;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 45px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}/*caixa de texto que vai ser inserido*/
+
+button {
+    padding: 15px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}/*botao de adicionar*/
+
+button:hover{
+    color: black;
+}/*oque o botao vai fazer quando o mouse passar por cima*/
+
+#lista{
+  margin-left: 30%;
+  margin-right: 30%;
+}/* div da lista pra colocar ela no meio*/
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}/*definiçao da lista*/
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    margin-top: 8px;
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}/*lista de tarefas propriamente dita*/
+
+li button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}/*botao de excluir da lista*/
+
+.custom-checkbox {
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 100px;
+    position: relative;
+} /*estilo da chekbox sem ta marcada*/
+
+.custom-checkbox:checked::before {
+    content: '\2713'; /* Caractere Unicode para "✔" */
+    font-size: 25px;
+    color: #ffffff; /* Cor do "V" quando marcado */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} /*adicionando um v quando a chekbox for marcada*/
+.custom-checkbox:checked{
+    background-color: #000000;
+} /*colocando cor de fundo diferente*/

@@ -16,6 +16,10 @@ Este repositório contém uma coleção de projetos simples desenvolvidos com HT
    - ![Calendário Dinâmico](./calendario-dinamico/img_do_projeto.png)
    - Este é um projeto de calendário dinâmico criado utilizando HTML, CSS e JavaScript. Ele permite a navegação entre os meses e anos, exibindo os dias correspondentes de forma interativa.
 
+4. **to-do-list**
+   - ![Calendário Dinâmico](./to-do-list/img.projeto.png)
+   - .Um simples aplicativo de lista de tarefas interativa criado com HTML, CSS e JavaScript. Permite aos usuários adicionar, marcar como concluídas e excluir tarefas de forma eficiente.
+
 ## Como Usar
 
 1. Clone ou baixe este repositório para o seu computador.
