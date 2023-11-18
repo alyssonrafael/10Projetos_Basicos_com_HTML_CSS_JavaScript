@@ -22,6 +22,9 @@ Este repositório contém uma coleção de projetos simples desenvolvidos com HT
 5. **galeria de filmes**
    - uma simples galeria de filmes para demostrar conceitos js e css principalmente
    - ![galeria de filmes ](./Galeria-de-filmes/img/img%20do%20projetpo.png)
+6. **conversor de moedas**
+   - um simples conversor de moedas padronizado com as taxas do dia 18/11/23 projeot basico para praticar css e js principalmente.
+   - ![conversor de moedas](./conversor-de-moedas-estatico//img_do_projeto/img2%20do%20projeto.png)
 
 ## Como Usar
 

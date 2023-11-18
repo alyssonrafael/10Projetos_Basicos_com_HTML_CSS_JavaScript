@@ -1,0 +1,151 @@
+*{
+    background-image: linear-gradient(to right, #070707, #564d5a);
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    padding: 5px;
+    align-items: center;
+    border-radius:30px;
+}
+
+.titulo{
+    
+    padding: 8px;
+    text-align: center;
+    border-radius: 50px;
+
+}
+.conta{
+    
+    padding: 8px;
+    text-align: center;
+    font-size: large;
+}
+.conta input{
+    background-color: #070707;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* input do valor a ser convertido  */
+/* Input container */
+.input-container {
+    position: relative;
+    margin: 20px;
+  }
+  
+  /* Input field */
+  .input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  /* Input label */
+  .input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: rgba(204, 204, 204, 0);
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input highlight */
+  .input-highlight {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: #000000;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input field:focus styles */
+  .input-field:focus + .input-label {
+    top: -20px;
+    font-size: 12px;
+    color: #000000;
+  }
+  
+  .input-field:focus + .input-label + .input-highlight {
+    width: 100%;
+  }
+  /* fim do style do imput do valor a ser convertido */
+
+  /* inicio dos select */
+
+  
+  .box select {
+    background-color: #000000;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  
+  
+  .box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box select option {
+    padding: 30px;
+  }
+
+  /* fim do select  */
+
+  /* inicio do btn */
+    .btn{
+       padding: 8px; 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 30px;
+    }
+  button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: rgb(26, 26, 27);
+    color: white;
+    border-radius: 4px;
+   }
+   
+   button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(58, 60, 62) 0%, rgb(48, 58, 59) 100%);
+   }
+   
+   button:active {
+    transform: translate(0em, 0.2em);
+   }
+  /* fim do btn */
+  /* estilo do resultado */
+  .resultado p{
+    font-size: 18px; /* Altere o tamanho da fonte conforme desejado */
+    color: #ffffff; /* Altere a cor do texto conforme desejado */
+    margin-top: 10px; /* Espaçamento superior */
+    text-align: center;
+  }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="titulo"> 
+            <h1>Conversor de Moedas</h1>
+            <p>Taxas do dia 18/11/23</p>
+        </div>
+
+        <div class="conta">
+            <p>Digite um valor 
+                <div class="input-container">
+                    <input id="inputReais" placeholder="Digite o valor" class="input-field" type="text">
+                    <label for="inputReais" class="input-label"></label>
+                    <span class="input-highlight"></span>
+                </div>
+                que será convertido de
+                <div class="box">
+                    <select name="moeda_a_ser_convertida" id="moeda_a_ser_convertida">
+                        <option value="real">Real</option>
+                        <option value="dolar">Dólar</option>
+                        <option value="euro">Euro</option>
+                    </select>
+                </div>
+                para
+                <div class="box">
+                    <select name="moeda_convertida" id="moeda_convertida">
+                        <option value="real">Real</option>
+                        <option value="dolar">Dólar</option>
+                        <option value="euro">Euro</option>
+                    </select>
+                </div>....
+            </p>
+        </div>
+        
+        <div class="resultado">
+            <p id="valorConvertido"></p>
+        </div>
+        
+        <div class="btn">
+            <button onclick="calcularValor()">Clique Aqui Para Converter</button>
+        </div>
+    </div>
+</body>
+</html>
