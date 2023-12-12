@@ -23,9 +23,12 @@ Este repositório contém uma coleção de projetos simples desenvolvidos com HT
    - uma simples galeria de filmes para demostrar conceitos js e css principalmente
    - ![galeria de filmes ](./Galeria-de-filmes/img/img%20do%20projetpo.png)
 6. **conversor de moedas**
-   - um simples conversor de moedas padronizado com as taxas do dia 18/11/23 projeot basico para praticar css e js principalmente.
+   - um simples conversor de moedas padronizado com as taxas do dia 18/11/23 projeto basico para praticar css e js principalmente.
    - ![conversor de moedas](./conversor-de-moedas-estatico//img_do_projeto/img2%20do%20projeto.png)
 
+7. **Cronometro Pomodoro**
+   - simples cronometro que altera entre o tempo de trabalho e o tempo de descanso sozinho para melhor aproveitamento do tempo, aviso sonoro ao encerar um ciclo de tempo. um projetoo basico para praticar html css e javascript.
+    - ![Cronometro Pomodoro](./cronometro%20pomodoro/img%20do%20projeto/Screenshot%202023-12-12%20200315.png)
 ## Como Usar
 
 1. Clone ou baixe este repositório para o seu computador.

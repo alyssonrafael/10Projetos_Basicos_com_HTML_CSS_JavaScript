@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POMODORO</title>
+
+    <!-- FONT fontes do google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+
+    <!-- ICONS utilizados na pagina-->
+    <script src="https://kit.fontawesome.com/59348370cf.js" crossorigin="anonymous"></script>
+
+    <!-- link CSS -->    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="audio" src="./alarm-clock-short-6402.mp3"></audio>
+
+    <section>
+        <div class="container">
+            <h1>POMODORO</h1> <!--titulo do meu pomodoro-->
+
+            <div class="painel"> <!--indicador para saber em qual dos tempos está-->
+                <p id="work">work</p>
+                <p id="break">break</p>
+            </div>
+
+            <div class="timer"> <!--relogio em si com as classes para auxiliar no css-->
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutos"></p>
+                        <p>:</p>
+                        <p id="segundos"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controles"> <!--icones abaixo do timer para reiciar e iniciar o timer-->
+                <button id="iniciar" onclick="start()"><i class="fa-solid fa-play"></i></button>
+                <a href="./index.html" id="reiniciar"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- SCRIPT funcionamento dos icones e do timer em si -->
+    <script src="./index.js"></script>
+</body>
+</html>

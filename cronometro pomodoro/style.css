@@ -1,0 +1,155 @@
+/* Configurações iniciais */
+
+/* Definição de unidades de medida e cores padrão */
+:root {
+    font-size: 62.5%; /* Define o tamanho da fonte base como 10px (1rem = 10px) */
+    --color-primary: hsl(235, 35%, 19%); /* Cor primária */
+    --color-secondary: hsl(358, 78%, 69%); /* Cor secundária */
+    --color-font: hsla(0, 0%, 100%, 0.902); /* Cor da fonte */
+    --color-shadow: hsl(235, 36%, 35%); /* Cor da sombra */
+}
+
+/* Estilos globais para elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o HTML e corpo da página */
+html,
+body {
+    height: 100%;
+    background-color: var(--color-primary); /* Cor de fundo */
+    font-size: 1.6rem; /* Tamanho da fonte */
+    font-family: 'Open Sans', sans-serif; /* Fonte utilizada */
+}
+
+/* Estilos para elementos específicos */
+p,
+i,
+h1 {
+    color: var(--color-font); /* Cor da fonte */
+}
+
+i {
+    font-size: 3.2rem; /* Tamanho dos ícones */
+}
+
+h1 {
+    font-size: 3.2rem; /* Tamanho do cabeçalho principal */
+}
+
+/* Estilos para o conteúdo */
+
+/* Seção principal */
+section {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* Container central */
+.container {
+    width: min(42.5rem, 100%);
+    margin-inline: auto;
+    padding-inline: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Painel com modos */
+.painel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    width: 20rem;
+    margin-block: 5rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    box-shadow: 0px 0px 10px 10px var(--color-shadow); /* Sombra */
+    -webkit-box-shadow: 0px 0px 10px 10px var(--color-shadow); /* Sombra para Webkit */
+    -moz-box-shadow: 0px 0px 10px 10px var(--color-shadow); /* Sombra para Mozilla */
+}
+
+/* Estilos para os textos no painel */
+.painel p {
+    opacity: .8;
+    transition: 1s ease-in;
+}
+
+/* Estilos para o texto ativo no painel */
+.painel p.active {
+    opacity: 1;
+    color: var(--color-secondary); /* Cor do texto ativo */
+}
+
+/* Temporizador */
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px var(--color-shadow); /* Sombra */
+    -webkit-box-shadow: 0px 0px 10px 10px var(--color-shadow); /* Sombra para Webkit */
+    -moz-box-shadow: 0px 0px 10px 10px var(--color-shadow); /* Sombra para Mozilla */
+}
+
+/* Círculo do temporizador */
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26rem;
+    height: 26rem;
+    border-radius: 50%;
+    background-color: var(--color-secondary); /* Cor de fundo do aro no circulo*/
+    position: relative;
+}
+
+/* Estilo para o círculo interno */
+.circle::before {
+    content: '';
+    position: absolute;
+    width: 96%;
+    height: 96%;
+    border-radius: 50%;
+    background-color: var(--color-primary); /* Cor de fundo do círculo interno */
+}
+
+/* Estilos para os números do temporizador */
+.time {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.time p {
+    font-size: 5.6rem; /* Tamanho dos números */
+}
+
+.time p:nth-last-of-type(2) {
+    position: relative;
+    top: -.5rem;
+    margin-inline: 1rem;
+}
+
+/* Controles (botões) */
+.controles {
+    margin-top: 3rem;
+}
+
+.controles button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Estilo para o botão de reiniciar (oculto inicialmente) */
+.controles #reiniciar {
+    display: none;
+}
