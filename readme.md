@@ -32,6 +32,9 @@ Este repositório contém uma coleção de projetos simples desenvolvidos com HT
 8. **Formulário com Gerador de senha**
    - O objetivo deste projeto é proporcionar uma prática de desenvolvimento web utilizando tecnologias fundamentais (HTML, CSS e JavaScript) na construção de um formulário de cadastro responsivo. A inclusão do gerador de sugestão de senha busca demonstrar a interação entre o usuário e a geração de senhas seguras.
    - ![Formulário com Gerador de senha](./formulario_com_gerador_de_senha/img/img%20do%20projeto%202.png)
+9. **calculadora**
+   - uma simples cauculadora com operações basicas. objetivo trinar js e css em sua maioria
+   - ![calculadora](./calculadora/img/img%20do%20projeto.png)
 ## Como Usar
 
 1. Clone ou baixe este repositório para o seu computador.
