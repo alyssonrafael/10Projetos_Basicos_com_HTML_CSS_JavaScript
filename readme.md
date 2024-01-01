@@ -29,6 +29,9 @@ Este repositório contém uma coleção de projetos simples desenvolvidos com HT
 7. **Cronometro Pomodoro**
    - simples cronometro que altera entre o tempo de trabalho e o tempo de descanso sozinho para melhor aproveitamento do tempo, aviso sonoro ao encerar um ciclo de tempo. um projetoo basico para praticar html css e javascript.
     - ![Cronometro Pomodoro](./cronometro%20pomodoro/img%20do%20projeto/Screenshot%202023-12-12%20200315.png)
+8. **Formulário com Gerador de senha**
+   - O objetivo deste projeto é proporcionar uma prática de desenvolvimento web utilizando tecnologias fundamentais (HTML, CSS e JavaScript) na construção de um formulário de cadastro responsivo. A inclusão do gerador de sugestão de senha busca demonstrar a interação entre o usuário e a geração de senhas seguras.
+   - ![Formulário com Gerador de senha](./formulario_com_gerador_de_senha/img/img%20do%20projeto%202.png)
 ## Como Usar
 
 1. Clone ou baixe este repositório para o seu computador.

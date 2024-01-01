@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro</title>
+
+    <!-- Estilo -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,300&family=Open+Sans:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="./scrypt.js" defer></script>
+  </head>
+  <body>
+    <div id="register-container">
+      <div id="register-banneer">
+        <div id="banner-layer">
+          <h1>Seja bem-vindo</h1>
+        </div>
+      </div>
+      <div id="register-form">
+        <h2>Crie sua Conta</h2>
+        <p>Registre-se para usar as funcionalidades</p>
+        <div class="form-control">
+          <label for="name">NOME</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Digite seu nome..."
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">E-MAIL</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu e-mail..."
+          />
+        </div>
+        <div class="form-control">
+          <label for="password">SENHA</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Digite sua senha..."
+          />
+        </div>
+        <p>
+          Precisa de ajuda para criar uma senha segura?
+          escolha as características da sua senha e depois
+          <span id="generate-password">CLIQUE AQUI.</span>
+        </p>
+
+        <div class="form-control">
+            <label for="letras">Letras
+                <input type="checkbox" id="letras" name="letras" >
+            </label>
+            <label for="numeros">Números
+                <input type="checkbox" id="numeros" name="numeros" >
+            </label>
+            <label for="simbolos">Símbolos
+                <input type="checkbox" id="simbolos" name="simbolos" >
+            </label>
+        </div>
+        <div id="generated-password">
+          <p>AQUI ESTÁ A SUA SENHA</p>
+          <h4 id="password-display"></h4>
+          <button id="copy-password">Copiar Senha</button>
+        </div>
+        <div class="form-control">
+          <label for="confirm-password">CONFIRMAÇÃO DE SENHA</label>
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            placeholder="Confirme sua senha..."
+          />
+        </div>
+        <input type="submit" value="Cadastrar" >
+      </div>
+    </div>
+  </body>
+</html>
